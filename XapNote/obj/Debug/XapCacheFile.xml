@@ -1,0 +1,15 @@
+﻿<xapCache source="d:\documents\visual studio 2010\Projects\XapNote\XapNote\Bin\Debug\XapNote.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="2012/3/20 17:24:38">
+  <file source="d:\documents\visual studio 2010\Projects\XapNote\XapNote\Bin\Debug\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2012/3/19 21:30:40" />
+  <file source="d:\documents\visual studio 2010\Projects\XapNote\XapNote\Background.png" archivePath="Background.png" lastWriteTime="2012/3/19 19:26:10" />
+  <file source="d:\documents\visual studio 2010\Projects\XapNote\XapNote\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="2012/3/19 19:26:10" />
+  <file source="d:\documents\visual studio 2010\Projects\XapNote\XapNote\obj\Debug\XapNote.dll" archivePath="XapNote.dll" lastWriteTime="2012/3/20 17:24:36" />
+  <file source="d:\documents\visual studio 2010\Projects\XapNote\XapNote\Images\appbar.add.rest.png" archivePath="Images\appbar.add.rest.png" lastWriteTime="2012/3/19 19:53:44" />
+  <file source="d:\documents\visual studio 2010\Projects\XapNote\XapNote\Images\appbar.cancel.rest.png" archivePath="Images\appbar.cancel.rest.png" lastWriteTime="2012/3/19 21:10:02" />
+  <file source="d:\documents\visual studio 2010\Projects\XapNote\XapNote\Images\appbar.delete.rest.png" archivePath="Images\appbar.delete.rest.png" lastWriteTime="2012/3/19 21:26:26" />
+  <file source="d:\documents\visual studio 2010\Projects\XapNote\XapNote\Images\appbar.questionmark.rest.png" archivePath="Images\appbar.questionmark.rest.png" lastWriteTime="2012/3/19 19:53:44" />
+  <file source="d:\documents\visual studio 2010\Projects\XapNote\XapNote\Images\appbar.back.rest.png" archivePath="Images\appbar.back.rest.png" lastWriteTime="2012/3/19 19:54:30" />
+  <file source="d:\documents\visual studio 2010\Projects\XapNote\XapNote\Images\appbar.edit.rest.png" archivePath="Images\appbar.edit.rest.png" lastWriteTime="2012/3/19 19:54:30" />
+  <file source="d:\documents\visual studio 2010\Projects\XapNote\XapNote\Images\appbar.save.rest.png" archivePath="Images\appbar.save.rest.png" lastWriteTime="2012/3/19 19:54:30" />
+  <file source="d:\documents\visual studio 2010\Projects\XapNote\XapNote\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="2012/3/19 19:26:10" />
+  <file source="d:\documents\visual studio 2010\Projects\XapNote\XapNote\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2012/3/19 19:27:22" />
+</xapCache>

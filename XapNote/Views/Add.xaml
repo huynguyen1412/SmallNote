@@ -1,0 +1,58 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="XapNote.Views.Add"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="696" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="True" Loaded="PhoneApplicationPage_Loaded">
+
+    <!--LayoutRoot 是放置所有頁面的根資料格-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel 包含應用程式的名稱和頁面標題-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle" Text="Xap Note" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="PageTitle" Text="Add New Note" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" FontSize="64" />
+        </StackPanel>
+
+        <!--ContentPanel - 其他內容置於此-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <!--行定义-->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="79"/>
+                <RowDefinition Height="466"/>
+                <RowDefinition Height="0*" />
+            </Grid.RowDefinitions>
+            <!--列定义-->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="30"/>
+                <ColumnDefinition Width="386"/>
+                <ColumnDefinition Width="30" />
+                <ColumnDefinition Width="10*" />
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="1" Height="42" HorizontalAlignment="Left" Margin="0,24,0,0" Name="textBlock1" Text="文件名:" VerticalAlignment="Top" Width="83" TextAlignment="Left" />
+            <TextBox Grid.Column="1" Height="73" HorizontalAlignment="Left" Margin="89,10,0,0" Name="textBox1" Text="" VerticalAlignment="Top" Width="297" />
+            <TextBox Grid.Column="1" Grid.Row="1"  HorizontalAlignment="Stretch"  Name="editTextBox" Text="" VerticalAlignment="Stretch" Width="386" TextChanged="editTextBox_TextChanged" />
+        </Grid>
+    </Grid>
+ 
+    <!--顯示 ApplicationBar 使用方式的程式碼範例-->
+   <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar.cancel.rest.png" Text="cancel" Click="AppBar_Cancel_Click"/>
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar.save.rest.png" Text="save" Click="AppBar_Save_Click"/>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+</phone:PhoneApplicationPage>

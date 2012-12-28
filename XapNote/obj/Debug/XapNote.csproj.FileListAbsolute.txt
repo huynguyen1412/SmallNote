@@ -1,0 +1,15 @@
+d:\documents\visual studio 2010\Projects\XapNote\XapNote\Bin\Debug\ApplicationIcon.png
+d:\documents\visual studio 2010\Projects\XapNote\XapNote\Bin\Debug\Background.png
+d:\documents\visual studio 2010\Projects\XapNote\XapNote\Bin\Debug\XapNote.dll
+d:\documents\visual studio 2010\Projects\XapNote\XapNote\Bin\Debug\XapNote.pdb
+d:\documents\visual studio 2010\Projects\XapNote\XapNote\Bin\Debug\AppManifest.xaml
+d:\documents\visual studio 2010\Projects\XapNote\XapNote\Bin\Debug\XapNote.xap
+d:\documents\visual studio 2010\Projects\XapNote\XapNote\obj\Debug\ResolveAssemblyReference.cache
+d:\documents\visual studio 2010\Projects\XapNote\XapNote\obj\Debug\App.g.i.cs
+d:\documents\visual studio 2010\Projects\XapNote\XapNote\obj\Debug\Views\MainPage.g.i.cs
+d:\documents\visual studio 2010\Projects\XapNote\XapNote\obj\Debug\XapNote.g.resources
+d:\documents\visual studio 2010\Projects\XapNote\XapNote\obj\Debug\XapNote.dll
+d:\documents\visual studio 2010\Projects\XapNote\XapNote\obj\Debug\XapNote.pdb
+d:\documents\visual studio 2010\Projects\XapNote\XapNote\obj\Debug\XapCacheFile.xml
+d:\documents\visual studio 2010\Projects\XapNote\XapNote\obj\Debug\Views\Add.g.i.cs
+d:\documents\visual studio 2010\Projects\XapNote\XapNote\obj\Debug\Views\ViewEdit.g.i.cs
